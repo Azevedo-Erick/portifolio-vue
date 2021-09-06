@@ -99,7 +99,6 @@ export default {
 }
 .custom.char {
   color: #38b6ff;
-  text-shadow: 1px 1px#000000;
 }
 .custom.char.selected,
 .custom.caret {
