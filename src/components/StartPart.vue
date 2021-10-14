@@ -1,9 +1,11 @@
 <template>
   <div class="container">
     <vue-typer
+    class="tp"
       :text="[
         'Desenvolvedor Nodejs',
         'Desenvolvedor Vuejs',
+        'Desenvolvedor Flutter',
         'Desenvolvedor Java',
         '',
       ]"
@@ -30,7 +32,7 @@
       <vue-particles
         color="#dedede"
         :particleOpacity="0.9"
-        :particlesNumber="130"
+        :particlesNumber="90"
         shapeType="polygon"
         :particleSize="2"
         linesColor="#dedede"
@@ -54,7 +56,7 @@ import { VueTyper } from "vue-typer";
 
 export default {
   components: {
-    VueTyper,
+    VueTyper
   },
 };
 </script>
@@ -99,9 +101,11 @@ export default {
 }
 .custom.char {
   color: #38b6ff;
-}
+  text-shadow: 1.5px 1.5px#000000;
+  }
 .custom.char.selected,
 .custom.caret {
+  box-shadow: #000000 1.5px 1.5px;
   background-color: #264f78;
 }
 .custom.caret {
@@ -113,15 +117,13 @@ export default {
   color: rgb(218, 218, 218);
   border: 3px solid #38b6ff;
   border-radius: 10px;
-  padding: 1.5%;
+  padding: 25px;
   width: 145px;
   font-size: 28px;
   text-shadow: 1.5px 1.5px#000000;
   box-shadow: #000000 1.5px 1.5px;
-  margin-top: 2%;
   text-align: center;
-  position: absolute;
-  margin: calc(313px - 4vw) 0 0 4%;
+  margin-left: 30px;
   transition: 1000ms;
   background-color: rgba(180, 184, 202, 0);
   cursor: pointer;

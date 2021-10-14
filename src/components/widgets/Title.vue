@@ -15,10 +15,11 @@
     font-family: "Poppins", sans-serif;
     margin-bottom: 2%;
     font-size: 28px;
-    font-weight: bolder;
+    font-weight: bold;
     text-shadow: #000 0.5px -0.5px, #000 -0.5px 0.5px, #000 0.5px 0.5px,
-        #000 -0.5px -0.5px;
+            #000 -0.5px -0.5px;
     }
+    /*
     .title::before{
         content: "->";
         display: inline;
@@ -30,5 +31,19 @@
         border: rgb(255, 255, 255) 1px solid;
         text-shadow: #fff 0.5px -0.5px, #fff -0.5px 0.5px, #fff 0.5px 0.5px,
             #fff -0.5px -0.5px;
+    }*/
+    .title::before{
+        content: "</";
+        display: inline;
+        text-shadow: #000 0.5px -0.5px, #000 -0.5px 0.5px, #000 0.5px 0.5px,
+            #000 -0.5px -0.5px;
+        color: #38b6ff;
+    }
+    .title::after{
+        content: ">";
+        display: inline;
+        text-shadow: #000 0.5px -0.5px, #000 -0.5px 0.5px, #000 0.5px 0.5px,
+            #000 -0.5px -0.5px;
+        color: #38b6ff;
     }
 </style>

@@ -1,34 +1,33 @@
 <template>
   <div id="app">
-    <HelloWorld/>
     <NavegationBar/>
     <StartPart/>
     <AboutMe/>
     <Skills/>
     <Labs/>
     <Contact/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import NavegationBar from './components/NavegationBar.vue';
 import StartPart from './components/StartPart.vue';
 import AboutMe from './components/AboutMe.vue';
 import Skills from './components/Skills.vue';
 import Labs from './components/Labs.vue'
 import Contact from './components/Contact.vue';
-
+import Footer from './components/footer.vue';
 export default {
   name: 'Portifolio',
   components: {
-    HelloWorld,
     NavegationBar,
     StartPart,
     AboutMe,
     Skills,
     Labs,
-    Contact
+    Contact,
+    Footer
   }
 }
 </script>
@@ -69,6 +68,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -85,4 +85,5 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 </style>

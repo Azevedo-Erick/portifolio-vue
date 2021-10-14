@@ -61,4 +61,7 @@ export default {
 .languages-container::webkit-scrollbar-thumb:hover{
     background-color: #555;
 }
+
+
+
 </style>

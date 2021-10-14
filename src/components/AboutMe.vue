@@ -1,7 +1,7 @@
 <template>
   <div class="about" id="about">
       <div class="me">
-        <img class="image" src="../../public/images/me.png" alt="">
+        <img class="image" src="../../public/images/me.png" draggable="false" alt="">
         <p>Erick Azevedo Sousa</p>
           <div class="my-socials">
               <!--Linkedin-->
@@ -22,20 +22,23 @@
         
         <Title text="Saiba um pouquinho sobre mim"/>
         <ul class="list">
-        <li>
-            18 anos
+        <li @load="getAge()">
+            {{getAge()}} anos
         </li>
         <li>
             Estudante de Sistemas de Informação
         </li>
         <li>
-            Aprendendo: Flutter | Javascript | Docker
+           Focado em Backend
         </li>
         <li>
-            SO principal: Linux
+            Amante de Linux
         </li>
         <li>
-            Esforçado e cada vez tentando aprender um pouco a mais
+           Me esforço ao máximo e tento fazer tudo o que gosto com o máximo de prazer possível
+        </li>
+        <li>
+           Um verdadeiro amante de comunidades digitais
         </li>
         </ul>
     </div>
@@ -48,6 +51,18 @@
     export default {
         components:{
             Title
+        },
+        methods:{
+            getAge(){
+                let moment = new Date();
+                if(moment.getMonth()+1>=10){
+                    if(moment.getDate()>=7){
+                        return moment.getFullYear() - 2002;
+                    }
+                }else{
+                    return (moment.getFullYear() - 2002)-1;
+                }
+            }
         }
         };
 </script>
@@ -62,6 +77,7 @@
         padding: 15px 15px;
         background-color: #040414;
         border-radius: 15px;
+        
     }
     .image{
         width: 60%;
@@ -103,11 +119,6 @@
     .social-icon{
         width: 70%;
     }
-    /*.about-title{
-        margin-left: 45%;
-        margin-top: 2%;
-    }*/
-    
     
     .list{
         font-family: 'Open Sans', sans-serif;
@@ -121,5 +132,27 @@
     }
     .list > li{
         margin-top: 10px ;
+    }
+    @media (max-width: 850px){
+        .me{
+            padding: 0;
+            width: 290px;
+            height: 290px;
+            
+        }
+        .about{
+            align-items: center;
+        }
+    }
+    @media (max-width:450px){
+        .me{
+            display:none;
+        }
+        .me>p{
+            font-size: 18px;
+        }
+        .about{
+            height:auto;
+        }
     }
 </style>

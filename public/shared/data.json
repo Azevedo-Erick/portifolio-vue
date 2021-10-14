@@ -157,6 +157,56 @@
             "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/nodejs/nodejs-plain.svg"
                 }
             ]
+        },
+        {
+            "name":"CRUD ESIG",
+            "url":"https://github.com/Azevedo-Erick/crud-esig",
+            "description":"Desafio técnico proposto pelo ESIG, uma aplicação JSF que usasse o PostgreSQL para persistir dados",
+            "techs":[
+                {
+                    "name":"Java",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/java/java-plain.svg"
+                },
+                {
+                    "name":"PostgreSQL",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/postgresql/postgresql-plain.svg"
+                },
+                {
+                    "name":"HTML5",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/html5/html5-plain.svg"
+                },
+                {
+                    "name":"CSS3",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/css3/css3-plain.svg"
+                }
+            ]
+        },
+        {
+            "name":"JSF TODO",
+            "url":"https://github.com/Azevedo-Erick/jsf-todo",
+            "description":"Pequena aplicação de lista de tarefas feita com JSF e PostgreSQL.",
+            "techs":[
+                {
+                    "name":"Java",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/java/java-plain.svg"
+                },
+                {
+                    "name":"PostgreSQL",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/postgresql/postgresql-plain.svg"
+                },
+                {
+                    "name":"HTML5",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/html5/html5-plain.svg"
+                },
+                {
+                    "name":"CSS3",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/css3/css3-plain.svg"
+                },
+                {
+                    "name":"JavaScript",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/javascript/javascript-plain.svg"
+                }
+            ]
         }
     ],
     "languages":[
@@ -203,6 +253,10 @@
         {
             "name":"MySQL",
             "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/mysql/mysql-plain.svg"
+        },
+        {
+            "name":"PostgreSQL",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/postgresql/postgresql-plain.svg"
         },
         {
             "name":"Inkscape",

@@ -60,14 +60,4 @@ export default {
 .cards-contaner::webkit-scrollbar-thumb:hover{
     background-color: #555;
 }
-.title {
-  color: #fff;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 2%;
-  font-size: 28px;
-  font-weight: bolder;
-  text-shadow: #000 0.5px -0.5px, #000 -0.5px 0.5px, #000 0.5px 0.5px,
-    #000 -0.5px -0.5px;
-}
 </style>

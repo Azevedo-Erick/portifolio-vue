@@ -1,6 +1,6 @@
 <template>
     <div class="card-skill">
-        <img :src="this.url" class="lang-svg"/>
+        <img :src="this.url" class="lang-svg" draggable="false"/>
         <p class="lang-name">{{this.name}}</p>
     </div>
 </template>
